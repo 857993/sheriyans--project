@@ -1,0 +1,52 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ html,body{
+   width: 100%;
+   height: 100%;
+ }
+
+ #box{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   right: 50%;
+   width: 50%;
+   height: 60%;
+   transform: translate(-50%,-50%);
+  /* background-color: salmon;*/
+ }
+
+ #center img{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   right: 50%;
+   border-radius: 7px;
+   transform: translate(-50%,-50%);
+   width: 320px;
+   transition: cubic-bezier(0.19, 1, 0.22, 1)0.2s;
+   cursor: pointer;
+
+
+ }
+ #center img:hover{
+   transform: translate(-50%,-50%) scale(2.1);
+   
+ }
+
+ #center #one{
+ left: 40%;
+ top: 42%;
+ }
+ #center #two{
+   top: 53%;
+   z-index: 99;
+
+ }
+ #center #three{
+left: 65%;
+ }
+
